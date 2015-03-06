@@ -1,0 +1,54 @@
+<%@ Master Debug="True" %>
+<html>
+<head>
+<title>Dot Personnel </title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body bgcolor="#330066" text="#000000">
+<table width="773" border="0" cellspacing="0" cellpadding="0" align="center" height="127" bordercolor="0">
+  <tr> 
+    <td width="773"><img src="images/newbanner.jpg" width="773" height="100"></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#CCCCFF" height="2" width="773"> 
+      <div align="center"><font color="#FFFFFF" size="3" face="Century"><strong><a href="Default.aspx" class="styles1"><span class="styles1"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Home</font></span></a><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><span class="styles1">| 
+        <a href="Employers.aspx" class="styles1">Employers</a>|<a href="Applicants.aspx" class="styles1"> 
+        Applicants</a>| <a href="Dotnews.aspx" class="styles1">Dot News</a>| 
+        <a href="Dotjobs.aspx" class="styles1"> Dot Jobs</a> l<a href="Links.aspx" class="styles1"> 
+        Links</a></span></font></strong></font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF" width="773">
+      <div align="center">
+        <table width="100%" border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#000000">
+          <tr> 
+            <td height="740" bgcolor="#FFFFFF"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                <tr> 
+                  <td width="50%" height="203" valign="top">
+				  <asp:contentplaceholder id="CPH1" runat="server"/>
+              <p align="center"><font size="3"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#330066">Dot
+                    Personnel Services (Ja) Limited<br>
+Tel: 926-7893/968-0730-2, Fax: 968-2885<br>
+VM Building <br>
+53 Knutsford Boulevard<br>
+Kingston 5, Jamaica W.I</font><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                <font color="#330066">Email: </font><font size="3"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#330066"><a href="mailto:jobs@dotpersonnel.com">jobs@dotpersonnel</a></font></font><font color="#330066"><br>
+Website: www.dotpersonnel.com</font></font><font color="#330066"><br>
+                </font> </font> </p>
+              <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif"><br>
+                <font size="1" color="#993333">All Rights Reserved</font></font></p>
+            </td>
+          </tr>
+        </table>
+        <font color="#FFFFFF" size="3" face="Century"></font></div>
+      </td>
+  </tr>
+</table>
+</body>
+</html>
